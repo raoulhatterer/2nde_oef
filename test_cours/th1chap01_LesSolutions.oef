@@ -28,31 +28,53 @@
 </style>
 }
 
+<!-- ÉTAPES -->
+\text{ETAPE = r1}
+\nextstep{\ETAPE}
 
 <!-- ÉNONCÉ -->
 \statement{
+
+\if{\step=1}{
+
 <h1>Énoncé</h1>
 <div class="énoncé">
   <center>
-    <img src="\imagedir/dissolutions.jpg" width="50%" alt="dissolutions"/>
+    <img src="\imagedir/dissolutions.jpg" width="80%" alt="dissolutions"/>
   </center>
   
 
-
-  Observation :
+  <h2>Observations : </h2>
   <ul>
     <li>Après agitation, le sel (chlorure de sodium) et le sucre (glucose) se dissolvent dans l’eau distillée.</li>
-    <li>La solution est limpide et incolore.</li>
+    <li>La solution est devenue limpide et incolore.</li>
+  </ul>
+
+  <h2>Définitions :</h2>
+  <ul>
     <li>Le glucose et le chlorure de sodium sont les espèces dissoutes : on dit que ce sont des solutés.</li>
     <li>L’eau est l’espèce largement majoritaire dans la solution : on dit que c’est le solvant.</li>
+    <li>Une solution est un mélange homogène résultant de la dissolution d’une ou plusieurs espèces chimiques (le ou les solutés minoritaires) dans une autre espèce chimique (le solvant majoritaire).</li>
+    <li>Si le solvant est de l’eau, on obtient une solution aqueuse.</li>
   </ul>
-Définition : Une solution est un mélange homogène résultant de la dissolution d’une ou plusieurs espèces chimiques (le ou les solutés minoritaires) dans une autre espèce chimique (le solvant majoritaire).
-Si le solvant est de l’eau, on obtient une solution aqueuse.
-NB : la limaille de fer ou le sable sont non solubles dans l'eau.  On utilise alors d'autres types de solvants tels que l'alcool, l'éther anhydre etc…
-Remarques :
-•	à partir d’une certaine quantité de soluté introduite, la dissolution n’est plus possible. Le solvant a dissous la quantité maximale d’espèce qu’il pouvait dissoudre. On dit alors que la solution est saturée.
-•	Le soluté peut-être solide, liquide ou gazeux.
-</div>}
+  <h2>Remarques :</h2>
+  <ul>
+    <li>à partir d’une certaine quantité de soluté introduite, la dissolution n’est plus possible. Le solvant a dissous la quantité maximale d’espèce qu’il pouvait dissoudre. On dit alors que la solution est saturée.</li>
+    <li>Le soluté peut-être solide, liquide ou gazeux.</li>
+    <li> la limaille de fer ou le sable sont non solubles dans l'eau.  On utilise alors d'autres types de solvants tels que l'alcool, l'éther anhydre etc…</li>
+  </ul>
+</div>
+Répondre aux questions (oui/non): \embed{r1}
+}
+\if{\step=2}{Bla bla}
+
+}
+
+\answer{Répondre aux questions (oui/non)}{oui}{type=nocase}{}{weight=0}
+\answer{Autre questions (oui/non)}{oui}{type=nocase}{}{weight=0}
+
+\text{etap = }
+\if{\step = 2 and \sc_reply1 = 1}{ \text{etap = r2} }
 
 II Solutés moléculaires et ioniques
 
@@ -84,7 +106,7 @@ Elle se note Cm et son unité est le g.L-1 (ou g/L)
 
 Problème : Christopher prend un verre de 20,0 cL d’Isostar,  l’entraineur lui signale qu’il contient  11,7g de glucose. Peut-il savoir s’il s’agit de la solution prête à boire (diluée 10 fois) ou celle du commerce (concentrée) ?
 Résolution : 
- → c’est bien la préparation diluée 10 fois
+→ c’est bien la préparation diluée 10 fois
 
 
 La concentration massique en soluté A dans une solution est la masse de soluté dans un litre de solution.
@@ -109,7 +131,7 @@ Si on dilue 10 fois la solution de départ, le facteur de dilution noté F est �
 
 Exemple
 Diluer 20 fois une solution, signifie que la concentration de la solution fille est 20 fois plus petite que la concentration de la solution mère :
-   →   
+→   
 
 Cela signifie aussi que le volume de la fille obtenue est 20 fois plus grand que le volume prélevé à la mère.
 → Vf =20×Vm  → 
