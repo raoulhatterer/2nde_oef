@@ -1,0 +1,77 @@
+\title{Les solutions}
+\language{fr}
+\author{Raoul,HATTERER}
+\computeanswer{no}<!-- l’utilisateur doit lui-même faire les calculs et entrer la valeur finale -->
+\email{hatterer.med@laposte.net}
+\format{html}
+
+
+
+<!-- STYLE CSS -->
+\css{
+<style type="text/css">
+  h1{
+  background-color: white;
+  color: #2584AB; margin: 1% 1%; padding : 1%;}
+  .énoncé{
+  background-color: #E7F7FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .questions{
+  background-color: #CCF0FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .solution{ background-color: #D6E4C1;
+  color : green  ;margin: 0; padding : 1% 5% 5% 5%;}
+  .définition{ background-color: #FFBF7F;
+  color : black  ;margin: 0 10% 0 10%; padding : 1% 1% 1% 1%;}
+  h1.solution{ background-color: #C5E0A2;
+  color: green; margin: 5% 0 1% -5pt; padding : 1%;}
+</style>
+}
+
+<!-- VARIABLES -->
+<div class="questions">
+\text{motscles = solution, soluté, solvant, solution aqueuse, dissolution, solution saturée}
+</div>
+
+<!-- ÉNONCÉ -->
+\statement{
+
+<h1>I. Qu’est-ce qu’une solution ?</h1>
+<div class="énoncé">
+  <center>
+    <img src="\imagedir/dissolutions.jpg" width="80%" alt="dissolutions"/>
+  </center>
+  
+
+  <h2>Observations : </h2>
+  <ul>
+    <li>Après agitation, le sel (chlorure de sodium) et le sucre (glucose) se dissolvent dans l’eau distillée.</li>
+    <li>La solution est devenue limpide et incolore.</li>
+  </ul>
+
+  <h2>Définitions :</h2>
+  <ul>
+    <li>Le glucose et le chlorure de sodium sont les espèces dissoutes : on dit que ce sont des solutés.</li>
+    <li>L’eau est l’espèce largement majoritaire dans la solution : on dit que c’est le solvant.</li>
+    <li>Une solution est un mélange homogène résultant de la dissolution d’une ou plusieurs espèces chimiques (le ou les solutés minoritaires) dans une autre espèce chimique (le solvant majoritaire).</li>
+    <li>Si le solvant est de l’eau, on obtient une solution aqueuse.</li>
+  </ul>
+  <h2>Remarques :</h2>
+  <ul>
+    <li>à partir d’une certaine quantité de soluté introduite, la dissolution n’est plus possible. Le solvant a dissous la quantité maximale d’espèce qu’il pouvait dissoudre. On dit alors que la solution est saturée.</li>
+    <li>Le soluté peut-être solide, liquide ou gazeux.</li>
+    <li> la limaille de fer ou le sable sont non solubles dans l'eau.  On utilise alors d'autres types de solvants tels que l'alcool, l'éther anhydre etc…</li>
+  </ul>
+</div>
+
+<div class="questions">
+  <p>
+    Après l'avoir lue  attentivement, donner trois  des mots clés de la leçon ci-dessus (les séparer par des virgules)
+  </p>
+  <center>\embed{reply1}</center>
+</div>
+}
+
+<!-- QUESTIONS -->
+
+\answer{Quels sont les mots clés de la leçon ci-dessus}{3, \motscles}{type=wlist}

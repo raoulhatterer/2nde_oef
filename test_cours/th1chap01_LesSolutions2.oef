@@ -1,0 +1,69 @@
+\title{Les solutions}
+\language{fr}
+\author{Raoul,HATTERER}
+\computeanswer{no}<!-- l’utilisateur doit lui-même faire les calculs et entrer la valeur finale -->
+\email{hatterer.med@laposte.net}
+\format{html}
+
+
+
+<!-- STYLE CSS -->
+\css{
+<style type="text/css">
+  h1{
+  background-color: white;
+  color: #2584AB; margin: 1% 1%; padding : 1%;}
+  .énoncé{
+  background-color: #E7F7FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .questions{
+  background-color: #CCF0FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .solution{ background-color: #D6E4C1;
+  color : green  ;margin: 0; padding : 1% 5% 5% 5%;}
+  .définition{ background-color: #FFBF7F;
+  color : black  ;margin: 0 10% 0 10%; padding : 1% 1% 1% 1%;}
+  h1.solution{ background-color: #C5E0A2;
+  color: green; margin: 5% 0 1% -5pt; padding : 1%;}
+</style>
+}
+
+
+<!-- ÉNONCÉ -->
+\statement{
+
+<h1>II. Solutés moléculaires et ioniques</h1>
+<div class="énoncé">
+  <p>
+    Vidéo : <a target="wims_external" href="https://www.youtube.com/watch?v=pLdm0MjLNfI">Quelques expériences de conduction électrique</a>
+  </p>
+  <p>
+    Si besoin, revoyez ces quelques <a target="wims_external" href="http://physique.chimie.29.free.fr/troisieme/conduction/conduction.htm">notions de conduction électrique dans les solides et les liquides</a>
+  </p>
+  <p>
+    Voir la présentation : <a target="wims_external" href="https://www.youtube.com/watch?v=-J_JkGWqrcM">conduction de l'eau salée</a>
+  </p>
+  <h2>Observation : </h2>
+  <p>
+    La \embed{reply1} ne conduit quasiment pas le courant, contrairement à la \embed{reply2}.
+  </p>
+  <p>
+    → Les solutés que l’on dissout peuvent être des espèces chimiques moléculaires ou ioniques.
+    <ul>
+      <li>molécules: C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> (glucose ou sucre) → la solution ne conduit pas le courant</li>
+      <li>ions : Na<sup>+</sup>et Cℓ<sup>-</sup> (Chlorure de sodium ou sel) → la solution conduit   le courant</li>
+    </ul>	
+  </p>
+
+  En solution aqueuse, le chlorure de sodium (sel) est présent sous forme d’ions chlorure Cℓ-(aq) et sodium Na+(aq)
+
+  <h2>Exemples de solutions aqueuses: </h2>
+  <ul>
+    <li>Le sang est une solution aqueuse qui contient de nombreux solutés ioniques et moléculaires, chacun jouant un rôle déterminant sur le bon fonctionnement de nos organes et donc sur la santé de l’individu.</li>
+    <li>La boisson isotonique comme Isostar est une solution aqueuse, car elle contient plusieurs solutés (ion sodium, ion potassium, molécules de glucose) qui sont dissous dans un solvant : l’eau.</li>
+  </ul>
+</div>
+}
+
+\answer{l'eau sucrée conduit}{1;solution d'eau sucrée, solution d'eau salée}{type=menu} {option=shuffle}
+\answer{l'eau salée ne conduit pas}{2;solution d'eau sucrée, solution d'eau salée}{type=menu} {option=shuffle}
