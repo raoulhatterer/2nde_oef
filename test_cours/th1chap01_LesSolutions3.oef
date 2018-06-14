@@ -13,7 +13,7 @@
   h1{
   background-color: white;
   color: #2584AB; margin: 1% 1%; padding : 1%;}
-  .énoncé{
+  .enonce{
   background-color: #E7F7FF;
   color: black; margin: 1% 1%; padding : 1%;}
   .questions{
@@ -29,78 +29,186 @@
 }
 
 
+
+<!-- VARIABLES -->
+\text{formules=   \(C_m=\frac{m}{V}\), \(  V=\frac{m}{C_m} \), \(m=C_m\times V \), \(C_m=m\times V\), \(V = m \times C_m \), \(C_m=\frac{V}{m}\), \(V = \frac{C_m}{m}\), \(m = C_m-V\), \(m= C_m+V\)  }
+
+
 <!-- ÉNONCÉ -->
 \statement{
 
-<h1>II. Solutés moléculaires et ioniques</h1>
-<div class="énoncé">
 
 
+<h1>III. Concentration massique Cm </h1>
+<div class="enonce">
+  
+  L’Isostar du commerce étant trop concentré en glucose (l’indication du fabriquant est : teneur en glucose <b>585g/L</b>) pour être bu il faut le diluer 10 fois.
+  
+  <ul>
+    <li>Cette indication en chimie s’appelle la concentration massique.</li>
+    <li>Elle se note Cm et son unité est le g&middot;L<sup>-1</sup> (ou g/L)</li>
+  </ul>
+  
 
-Observation :
-La solution d’eau sucrée ne conduit quasiment pas le courant, contrairement à la solution d’eau salée.
+  <h2>Interprétation</h2>
 
-→ Les solutés que l’on dissout peuvent être des espèces chimiques moléculaires ou ioniques.
-
-•	molécules: C12H22O11 (glucose ou sucre) → la solution ne conduit pas le courant
-•	ions : Na+et Cℓ- (Chlorure de sodium ou sel) → la solution conduit   le courant
-•	
-
-En solution aqueuse, le chlorure de sodium (sel) est présent sous forme d’ions chlorure Cℓ-(aq) et sodium Na+(aq)
-
-Exemples de solutions aqueuses: 
-•	le sang est une solution aqueuse qui contient de nombreux solutés ioniques et moléculaires, chacun jouant un rôle déterminant sur le bon fonctionnement de nos organes et donc sur la santé de l’individu.
-•	La boisson isotonique comme Isostar est une solution aqueuse, car elle contient plusieurs solutés (ion sodium, ion potassium, molécules de glucose) qui sont dissous dans un solvant : l’eau.
-
-
-
-
-III Concentration massique Cm
-
-L’Isostar du commerce est trop concentré en glucose, l’indication du fabriquant est : teneur en glucose 585g/L.
-→ dans un litre de solution d’Isostar, il y a 585g de glucose dissout.
-
-Cette indication en chimie s’appelle la concentration massique.
-Elle se note Cm et son unité est le g.L-1 (ou g/L)
-
-Problème : Christopher prend un verre de 20,0 cL d’Isostar,  l’entraineur lui signale qu’il contient  11,7g de glucose. Peut-il savoir s’il s’agit de la solution prête à boire (diluée 10 fois) ou celle du commerce (concentrée) ?
-Résolution : 
-→ c’est bien la préparation diluée 10 fois
+  Dans un litre de solution d’Isostar, il y a 585g de glucose dissout.
+  
+  <h2>Petit problème à résoudre </h2>
+  <p>
+    Christopher prend un verre de 20,0 cL d’Isostar,  l’entraineur lui signale qu’il contient  11,7g de glucose. Peut-il savoir s’il s’agit de la solution prête à boire (diluée 10 fois) ou celle du commerce (concentrée) ?
+  </p>
+  On donne la table des préfixes du Système international d'unités :
 
 
-La concentration massique en soluté A dans une solution est la masse de soluté dans un litre de solution.
+<table width="100%">
+  <tr height="1">
+    <td colspan="7"><img src="/utils/common/img/trait-bleu-1.gif" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="txt11ptl">Facteur</td>
+    <td class="txt11ptl">Nom</td>
+    <td class="txt11ptl">Symbole</td>
+    <td width="5"> </td>
+    <td class="txt11ptl">Facteur</td>
+    <td class="txt11ptl">Nom</td>
+    <td class="txt11ptl">Symbole</td>
+  </tr>
+  <tr height="1">
+    <td colspan="7"><img src="/utils/common/img/trait-bleu-1.gif" width="100%" height="1"></td>
+  </tr>
+  <tr bgcolor="#DBE3EB">
+    <td class="txt11ptl">10<sup>1</sup></td>
+    <td class="txt11ptl">d&eacute;ca</td>
+    <td class="txt11ptl">da</td>
+    <td bgcolor="#F2F5F8" rowspan="10"> </td>
+    <td class="txt11ptl">10<sup>&#150;1</sup></td>
+    <td class="txt11ptl">d&eacute;ci</td>
+    <td class="txt11ptl">d</td>
+  </tr>
+  <tr>
+    <td class="txt11ptl">10<sup>2</sup></td>
+    <td class="txt11ptl">hecto</td>
+    <td class="txt11ptl">h</td>
+    <td class="txt11ptl">10<sup>&#150;2</sup></td>
+    <td class="txt11ptl"><b>centi</b></td>
+    <td class="txt11ptl">c</td>
+  </tr> 
+  <tr bgcolor="#DBE3EB">
+    <td class="txt11ptl">10<sup>3</sup></td>
+    <td class="txt11ptl">kilo</td>
+    <td class="txt11ptl">k</td>
+    <td class="txt11ptl">10<sup>&#150;3</sup></td>
+    <td class="txt11ptl">milli</td>
+    <td class="txt11ptl">m</td>
+  </tr> 
+  <tr>
+    <td class="txt11ptl">10<sup>6</sup></td>
+    <td class="txt11ptl">m&eacute;ga</td>
+    <td class="txt11ptl">M</td>
+    <td class="txt11ptl">10<sup>&#150;6</sup></td>
+    <td class="txt11ptl">micro</td>
+    <td class="txt11ptl">&micro;</td>
+  </tr> 
+  <tr bgcolor="#DBE3EB">
+    <td class="txt11ptl">10<sup>9</sup></td>
+    <td class="txt11ptl">giga</td>
+    <td class="txt11ptl">G</td>
+    <td class="txt11ptl">10<sup>&#150;9</sup></td>
+    <td class="txt11ptl">nano</td>
+    <td class="txt11ptl">n</td>
+  </tr> 
+  <tr>
+    <td class="txt11ptl">10<sup>12</sup></td>
+    <td class="txt11ptl">t&eacute;ra</td>
+    <td class="txt11ptl">T</td>
+    <td class="txt11ptl">10<sup>&#150;12</sup></td>
+    <td class="txt11ptl">pico</td>
+    <td class="txt11ptl">p</td>
+  </tr> 
+  <tr bgcolor="#DBE3EB">
+    <td class="txt11ptl">10<sup>15</sup></td>
+    <td class="txt11ptl">p&eacute;ta</td>
+    <td class="txt11ptl">P</td>
+    <td class="txt11ptl">10<sup>&#150;15</sup></td>
+    <td class="txt11ptl">femto</td>
+    <td class="txt11ptl">f</td>
+  </tr>
+  <tr>
+    <td class="txt11ptl">10<sup>18</sup></td>
+    <td class="txt11ptl">exa</td>
+    <td class="txt11ptl">E</td>
+    <td class="txt11ptl">10<sup>&#150;18</sup></td>
+    <td class="txt11ptl">atto</td>
+    <td class="txt11ptl">a</td>
+  </tr>
+  <tr bgcolor="#DBE3EB">
+    <td class="txt11ptl">10<sup>21</sup></td>
+    <td class="txt11ptl">zetta</td>
+    <td class="txt11ptl">Z</td>
+    <td class="txt11ptl">10<sup>&#150;21</sup></td>
+    <td class="txt11ptl">zepto</td>
+    <td class="txt11ptl">z</td>
+  </tr>
+  <tr>
+    <td class="txt11ptl">10<sup>24</sup></td>
+    <td class="txt11ptl">yotta</td>
+    <td class="txt11ptl">Y</td>
+    <td class="txt11ptl">10<sup>&#150;24</sup></td>
+    <td class="txt11ptl">yocto</td>
+    <td class="txt11ptl">y</td>
+  </tr>
+  <tr height="1">
+    <td colspan="7"><img src="/utils/common/img/trait-bleu-1.gif" width="100%" height="1"></td>
+  </tr>
+</table>
+
+  
+
+  <h3>Résolution : </h3>
+  <center>
+    \(C_m=\frac{m}{V}=\frac{11,7}{20,0\times 10^{-2}}=58,5 g\cdot L^{-1}\)
+  </center>
+  
+  → c’est bien la préparation diluée 10 fois
 
 
+  <h2>Définition</h2>
 
+  La concentration massique en soluté A dans une solution est la <mark>masse de soluté</mark> dans <mark>un litre de solution</mark>.
+  <p>
+  <center>
+    \(C_m(A)=\frac{m(A)}{V}\)
+  </center>
+  </p>
+  où :
+  <ul>
+    <li>m : masse de soluté A en g</li>
+    <li>V : volume de la solution en L</li>
+    <li>Cm : concentration massique en g/L</li>
+  </ul>
+</div>
 
+<div class="questions">
+  <h3>Exercice : Formules équivalentes</h3>
+  <ul>
+    \for{i = 1 to 9}{
+    <li>\embed{reply1,\i}</li> <br/>
+    }
+  </ul>
+  Cocher les formules exactes.
+</div>
 
+<div class="questions">
+  <h3>Exercice : Préfixes</h3>
+  <br/>  <br/><br/>
+  \embed{r2, 20x60x50}
+  <p>
+    Associer chaque préfixe avec la puissance de dix correspondante.
+  </p> 
+</div>
 
+}
 
-
-IV Préparation d’une solution de concentration donnée par dilution
-
-Diluer une solution, c’est diminuer sa concentration par ajout de solvant.
-Pour cela, il suffit de prendre un certain volume d’une solution appelée solution mère et rajouter de l’eau (solvant) pour obtenir une nouvelle solution appelée solution fille, qui aura une concentration inférieure à la solution mère.
-
-La préparation de solutions par dilution nécessite l’usage de verreries précises :
-•	pipette jaugée pour le prélèvement
-•	fiole jaugée pour le contenant
-
-Si on dilue 10 fois la solution de départ, le facteur de dilution noté F est égal à 10.
-
-Exemple
-Diluer 20 fois une solution, signifie que la concentration de la solution fille est 20 fois plus petite que la concentration de la solution mère :
-→   
-
-Cela signifie aussi que le volume de la fille obtenue est 20 fois plus grand que le volume prélevé à la mère.
-→ Vf =20×Vm  → 
-
-
-
-
-
-Formule facile à retenir :    
-
-
-
-
+\answer{formules}{1,2,3;\formules}{type=checkbox}{option=shuffle}
+\answer{prefixes}{déci, centi, milli, kilo ;\(10^{-1}\),\(10^{-2}\),\(10^{-3}\),\(10^3\)}{type=correspond}

@@ -1,0 +1,85 @@
+\title{Les solutions}
+\language{fr}
+\author{Raoul,HATTERER}
+\computeanswer{no}<!-- l’utilisateur doit lui-même faire les calculs et entrer la valeur finale -->
+\email{hatterer.med@laposte.net}
+\format{html}
+
+
+
+<!-- STYLE CSS -->
+\css{
+<style type="text/css">
+  h1{
+  background-color: white;
+  color: #2584AB; margin: 1% 1%; padding : 1%;}
+  .enonce{
+  background-color: #E7F7FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .questions{
+  background-color: #CCF0FF;
+  color: black; margin: 1% 1%; padding : 1%;}
+  .solution{ background-color: #D6E4C1;
+  color : green  ;margin: 0; padding : 1% 5% 5% 5%;}
+  .définition{ background-color: #FFBF7F;
+  color : black  ;margin: 0 10% 0 10%; padding : 1% 1% 1% 1%;}
+  h1.solution{ background-color: #C5E0A2;
+  color: green; margin: 5% 0 1% -5pt; padding : 1%;}
+</style>
+}
+
+
+<!-- ÉNONCÉ -->
+\statement{
+
+
+
+<h1>III. Concentration massique Cm </h1>
+<div class="enonce">
+L’Isostar du commerce est trop concentré en glucose, l’indication du fabriquant est : teneur en glucose 585g/L.
+→ dans un litre de solution d’Isostar, il y a 585g de glucose dissout.
+
+Cette indication en chimie s’appelle la concentration massique.
+Elle se note Cm et son unité est le g.L-1 (ou g/L)
+
+Problème : Christopher prend un verre de 20,0 cL d’Isostar,  l’entraineur lui signale qu’il contient  11,7g de glucose. Peut-il savoir s’il s’agit de la solution prête à boire (diluée 10 fois) ou celle du commerce (concentrée) ?
+Résolution : 
+→ c’est bien la préparation diluée 10 fois
+
+
+La concentration massique en soluté A dans une solution est la masse de soluté dans un litre de solution.
+
+
+
+</div>
+
+}
+
+
+IV Préparation d’une solution de concentration donnée par dilution
+
+Diluer une solution, c’est diminuer sa concentration par ajout de solvant.
+Pour cela, il suffit de prendre un certain volume d’une solution appelée solution mère et rajouter de l’eau (solvant) pour obtenir une nouvelle solution appelée solution fille, qui aura une concentration inférieure à la solution mère.
+
+La préparation de solutions par dilution nécessite l’usage de verreries précises :
+•	pipette jaugée pour le prélèvement
+•	fiole jaugée pour le contenant
+
+Si on dilue 10 fois la solution de départ, le facteur de dilution noté F est égal à 10.
+
+Exemple
+Diluer 20 fois une solution, signifie que la concentration de la solution fille est 20 fois plus petite que la concentration de la solution mère :
+→   
+
+Cela signifie aussi que le volume de la fille obtenue est 20 fois plus grand que le volume prélevé à la mère.
+→ Vf =20×Vm  → 
+
+
+
+
+
+Formule facile à retenir :    
+
+
+
+

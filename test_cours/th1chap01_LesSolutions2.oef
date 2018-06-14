@@ -29,6 +29,11 @@
 }
 
 
+<!-- VARIABLES -->
+
+\text{solutes= randitem(ioniques,moléculaires)}
+\text{solutemanquant= \solutes issametext ioniques ? moléculaires : ioniques}
+
 <!-- ÉNONCÉ -->
 \statement{
 
@@ -50,20 +55,26 @@
   <p>
     → Les solutés que l’on dissout peuvent être des espèces chimiques moléculaires ou ioniques.
     <ul>
-      <li>molécules: C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> (glucose ou sucre) → la solution ne conduit pas le courant</li>
-      <li>ions : Na<sup>+</sup>et Cℓ<sup>-</sup> (Chlorure de sodium ou sel) → la solution conduit   le courant</li>
+      <li>\embed{reply3}: C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> (glucose ou sucre) → la solution ne conduit pas le courant</li>
+      <li>\embed{reply4}: Na<sup>+</sup>et Cℓ<sup>-</sup> (Chlorure de sodium ou sel) → la solution conduit   le courant</li>
     </ul>	
   </p>
 
-  En solution aqueuse, le chlorure de sodium (sel) est présent sous forme d’ions chlorure Cℓ-(aq) et sodium Na+(aq)
+  En solution aqueuse, le chlorure de sodium (sel) est présent sous forme \embed{reply5} Cℓ<sup>-</sup>(aq) et \embed{reply6} Na<sup>+</sup>(aq)
 
   <h2>Exemples de solutions aqueuses: </h2>
   <ul>
-    <li>Le sang est une solution aqueuse qui contient de nombreux solutés ioniques et moléculaires, chacun jouant un rôle déterminant sur le bon fonctionnement de nos organes et donc sur la santé de l’individu.</li>
-    <li>La boisson isotonique comme Isostar est une solution aqueuse, car elle contient plusieurs solutés (ion sodium, ion potassium, molécules de glucose) qui sont dissous dans un solvant : l’eau.</li>
+    <li>Le sang est une solution aqueuse qui contient de nombreux solutés \solutes et \embed{reply7}, chacun jouant un rôle déterminant sur le bon fonctionnement de nos organes et donc sur la santé de l’individu.</li>
+    <li>La boisson isotonique comme Isostar est une solution\embed{reply8}, car elle contient plusieurs solutés (ion sodium, ion potassium, molécules de glucose) qui sont dissous dans un solvant : l’eau.</li>
   </ul>
 </div>
 }
 
 \answer{l'eau sucrée conduit}{1;solution d'eau sucrée, solution d'eau salée}{type=menu} {option=shuffle}
 \answer{l'eau salée ne conduit pas}{2;solution d'eau sucrée, solution d'eau salée}{type=menu} {option=shuffle}
+\answer{molécules ou ions?}{1;molécules,ions}{type=menu}{option=shuffle}
+\answer{molécules ou ions?}{2;molécules,ions}{type=menu}{option=shuffle}
+\answer{molécules ou ions?}{1; d’ions chlorure,d'ions sodium, d'atomes de chore, d'atomes de sodium, de chorure, de sodium}{type=menu}{option=shuffle}
+\answer{molécules ou ions?}{2; d’ions chlorure,d'ions sodium, d'atomes de chore, d'atomes de sodium, de chorure, de sodium}{type=menu}{option=shuffle}
+\answer{moléculaires}{\solutemanquant}{type=nocase}{option=noreaccent}
+\answer{aqueuse}{aqueuse}{type=nocase}{option=noreaccent}
