@@ -1,4 +1,4 @@
-\title{Les solutions}
+\title{III. Concentration massique Cm}
 \language{fr}
 \author{Raoul,HATTERER}
 \computeanswer{no}<!-- l’utilisateur doit lui-même faire les calculs et entrer la valeur finale -->
@@ -11,8 +11,9 @@
 \css{
 <style type="text/css">
   h1{
-  background-color: white;
-  color: #2584AB; margin: 1% 1%; padding : 1%;}
+  background-color: #E7F7FF;
+  color: #2584AB; margin:
+  }
   .enonce{
   background-color: #E7F7FF;
   color: black; margin: 1% 1%; padding : 1%;}
@@ -28,8 +29,6 @@
 </style>
 }
 
-
-
 <!-- VARIABLES -->
 \text{formules=   \(C_m=\frac{m}{V}\), \(  V=\frac{m}{C_m} \), \(m=C_m\times V \), \(C_m=m\times V\), \(V = m \times C_m \), \(C_m=\frac{V}{m}\), \(V = \frac{C_m}{m}\), \(m = C_m-V\), \(m= C_m+V\)  }
 
@@ -37,10 +36,9 @@
 <!-- ÉNONCÉ -->
 \statement{
 
-
-
-<h1>III. Concentration massique Cm </h1>
 <div class="enonce">
+
+  <h1>Exemple</h1>
   
   L’Isostar du commerce étant trop concentré en glucose (l’indication du fabriquant est : teneur en glucose <b>585g/L</b>) pour être bu il faut le diluer 10 fois.
   
@@ -50,11 +48,11 @@
   </ul>
   
 
-  <h2>Interprétation</h2>
+  <h1>Interprétation</h1>
 
   Dans un litre de solution d’Isostar, il y a 585g de glucose dissout.
   
-  <h2>Petit problème à résoudre </h2>
+  <h1>Petit problème à résoudre </h1>
   <p>
     Christopher prend un verre de 20,0 cL d’Isostar,  l’entraineur lui signale qu’il contient  11,7g de glucose. Peut-il savoir s’il s’agit de la solution prête à boire (diluée 10 fois) ou celle du commerce (concentrée) ?
   </p>
@@ -173,7 +171,7 @@
   → c’est bien la préparation diluée 10 fois
 
 
-  <h2>Définition</h2>
+  <h1>Définition</h1>
 
   La concentration massique en soluté A dans une solution est la <mark>masse de soluté</mark> dans <mark>un litre de solution</mark>.
   <p>
@@ -201,7 +199,7 @@
 
 <div class="questions">
   <h3>Exercice : Préfixes</h3>
-  <br/>  <br/><br/>
+   
   \embed{r2, 20x60x50}
   <p>
     Associer chaque préfixe avec la puissance de dix correspondante.

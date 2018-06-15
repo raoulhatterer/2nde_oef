@@ -1,4 +1,4 @@
-\title{Les solutions}
+\title{IV. Préparation d’une solution par dilution}
 \language{fr}
 \author{Raoul,HATTERER}
 \computeanswer{no}<!-- l’utilisateur doit lui-même faire les calculs et entrer la valeur finale -->
@@ -11,8 +11,9 @@
 \css{
 <style type="text/css">
   h1{
-  background-color: white;
-  color: #2584AB; margin: 1% 1%; padding : 1%;}
+  background-color: #E7F7FF;
+  color: #2584AB; margin:
+  }
   .enonce{
   background-color: #E7F7FF;
   color: black; margin: 1% 1%; padding : 1%;}
@@ -31,55 +32,73 @@
 
 <!-- ÉNONCÉ -->
 \statement{
-
-
-
-<h1>III. Concentration massique Cm </h1>
 <div class="enonce">
-L’Isostar du commerce est trop concentré en glucose, l’indication du fabriquant est : teneur en glucose 585g/L.
-→ dans un litre de solution d’Isostar, il y a 585g de glucose dissout.
+  <h1>Dilution</h1>
+  <p>
+    Diluer une solution, c’est diminuer sa concentration par ajout de solvant.
+    Pour cela, il suffit de prendre un certain volume d’une solution appelée <mark>solution mère</mark>
+    et rajouter de l’eau (solvant) pour obtenir une nouvelle solution appelée <mark>solution fille</mark>
+    , qui aura une concentration inférieure à la solution mère.
+  </p>
+  <h1>Verrerie</h1>
+  <p>
+    La préparation de solutions par dilution nécessite l’usage de verreries précises :
+    <ul>
+      <li>pipette jaugée pour le prélèvement</li>
+      <li>fiole jaugée pour le contenant</li>
+    </ul>
+  </p>
 
-Cette indication en chimie s’appelle la concentration massique.
-Elle se note Cm et son unité est le g.L-1 (ou g/L)
+  <h1>Facteur de dilution</h1>
+  Si on dilue 10 fois la solution de départ, le <mark>facteur de dilution</mark> noté F est égal à 10.
 
-Problème : Christopher prend un verre de 20,0 cL d’Isostar,  l’entraineur lui signale qu’il contient  11,7g de glucose. Peut-il savoir s’il s’agit de la solution prête à boire (diluée 10 fois) ou celle du commerce (concentrée) ?
-Résolution : 
-→ c’est bien la préparation diluée 10 fois
+  <h2>Exemple </h2>
+  <p>
+    Diluer 20 fois une solution, signifie que la concentration de la solution fille est 20 fois plus petite que la concentration de la solution mère. Soit :
+    <center>
+      \(C_f=\frac{C_m}{20}\)
+    </center>
+  </p>
+  <p>
+    Par conséquent, comme F=20, on peut dire que :
+    <center>
+      \(F=\frac{C_m}{C_f}\)
+    </center>
+  </p>
+  <p>
+    Cela signifie aussi que le volume de la fille obtenue est 20 fois plus grand que le volume prélevé à la mère. Soit :
+    <center>
+      \(V_f =20\times V_m\)
+    </center>
+  </p>
+  <p>
+    Par conséquent, comme F=20, on peut dire que :
+    <center>
+      \(F=\frac{V_f}{V_m}\)
+    </center>
+  </p>
+  <p>
+    
+    L'exemple précédent a permis d'établir que :
+    <center>
+      \(F=\frac{C_m}{C_f}=\frac{V_f}{V_m}\)
+    </center>
+  </p>
 
 
-La concentration massique en soluté A dans une solution est la masse de soluté dans un litre de solution.
+  <h1>Formule facile à retenir </h1>
 
+  <center>
+    \(C_m\times V_m=C_f\times V_f\)
+  </center>
 
-
+  <h1>Problème à résoudre</h1>
+  Pour résoudre un problème de dilution, il faut déterminer  le volume de solution mère à prélever pour obtenir une solution fille (de concentration et de volume souhaités).
+  <p>
+    <center>
+      \(V_m=\frac{C_f\times V_f}{C_m}\)
+    </center>
+  </p>
+  
 </div>
-
 }
-
-
-IV Préparation d’une solution de concentration donnée par dilution
-
-Diluer une solution, c’est diminuer sa concentration par ajout de solvant.
-Pour cela, il suffit de prendre un certain volume d’une solution appelée solution mère et rajouter de l’eau (solvant) pour obtenir une nouvelle solution appelée solution fille, qui aura une concentration inférieure à la solution mère.
-
-La préparation de solutions par dilution nécessite l’usage de verreries précises :
-•	pipette jaugée pour le prélèvement
-•	fiole jaugée pour le contenant
-
-Si on dilue 10 fois la solution de départ, le facteur de dilution noté F est égal à 10.
-
-Exemple
-Diluer 20 fois une solution, signifie que la concentration de la solution fille est 20 fois plus petite que la concentration de la solution mère :
-→   
-
-Cela signifie aussi que le volume de la fille obtenue est 20 fois plus grand que le volume prélevé à la mère.
-→ Vf =20×Vm  → 
-
-
-
-
-
-Formule facile à retenir :    
-
-
-
-

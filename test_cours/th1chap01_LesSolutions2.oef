@@ -1,4 +1,4 @@
-\title{Les solutions}
+\title{II. Solutés moléculaires et ioniques}
 \language{fr}
 \author{Raoul,HATTERER}
 \computeanswer{no}<!-- l’utilisateur doit lui-même faire les calculs et entrer la valeur finale -->
@@ -11,9 +11,10 @@
 \css{
 <style type="text/css">
   h1{
-  background-color: white;
-  color: #2584AB; margin: 1% 1%; padding : 1%;}
-  .énoncé{
+  background-color: #E7F7FF;
+  color: #2584AB; margin:
+  }
+  .enonce{
   background-color: #E7F7FF;
   color: black; margin: 1% 1%; padding : 1%;}
   .questions{
@@ -37,8 +38,8 @@
 <!-- ÉNONCÉ -->
 \statement{
 
-<h1>II. Solutés moléculaires et ioniques</h1>
-<div class="énoncé">
+
+<div class="enonce">
   <p>
     Vidéo : <a target="wims_external" href="https://www.youtube.com/watch?v=pLdm0MjLNfI">Quelques expériences de conduction électrique</a>
   </p>
@@ -48,10 +49,15 @@
   <p>
     Voir la présentation : <a target="wims_external" href="https://www.youtube.com/watch?v=-J_JkGWqrcM">conduction de l'eau salée</a>
   </p>
-  <h2>Observation : </h2>
+
+<h1>Observation</h1>
+
   <p>
     La \embed{reply1} ne conduit quasiment pas le courant, contrairement à la \embed{reply2}.
   </p>
+
+  <h1>Interprétation</h1>
+  
   <p>
     → Les solutés que l’on dissout peuvent être des espèces chimiques moléculaires ou ioniques.
     <ul>
@@ -62,7 +68,7 @@
 
   En solution aqueuse, le chlorure de sodium (sel) est présent sous forme \embed{reply5} Cℓ<sup>-</sup>(aq) et \embed{reply6} Na<sup>+</sup>(aq)
 
-  <h2>Exemples de solutions aqueuses: </h2>
+  <h1>Exemples de solutions aqueuses</h1>
   <ul>
     <li>Le sang est une solution aqueuse qui contient de nombreux solutés \solutes et \embed{reply7}, chacun jouant un rôle déterminant sur le bon fonctionnement de nos organes et donc sur la santé de l’individu.</li>
     <li>La boisson isotonique comme Isostar est une solution\embed{reply8}, car elle contient plusieurs solutés (ion sodium, ion potassium, molécules de glucose) qui sont dissous dans un solvant : l’eau.</li>

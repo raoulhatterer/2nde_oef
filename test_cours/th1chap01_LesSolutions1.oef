@@ -1,4 +1,4 @@
-\title{Les solutions}
+\title{I. Qu’est-ce qu’une solution ?}
 \language{fr}
 \author{Raoul,HATTERER}
 \computeanswer{no}<!-- l’utilisateur doit lui-même faire les calculs et entrer la valeur finale -->
@@ -11,9 +11,10 @@
 \css{
 <style type="text/css">
   h1{
-  background-color: white;
-  color: #2584AB; margin: 1% 1%; padding : 1%;}
-  .énoncé{
+  background-color: #E7F7FF;
+  color: #2584AB; margin:
+  }
+  .enonce{
   background-color: #E7F7FF;
   color: black; margin: 1% 1%; padding : 1%;}
   .questions{
@@ -27,7 +28,6 @@
   color: green; margin: 5% 0 1% -5pt; padding : 1%;}
 </style>
 }
-
 <!-- VARIABLES -->
 <div class="questions">
 \text{motscles = solution, soluté, solvant, solution aqueuse, dissolution, solution saturée}
@@ -36,27 +36,27 @@
 <!-- ÉNONCÉ -->
 \statement{
 
-<h1>I. Qu’est-ce qu’une solution ?</h1>
-<div class="énoncé">
+
+<div class="enonce">
   <center>
     <img src="\imagedir/dissolutions.jpg" width="80%" alt="dissolutions"/>
   </center>
   
 
-  <h2>Observations : </h2>
+  <h1>Observations</h1>
   <ul>
     <li>Après agitation, le sel (chlorure de sodium) et le sucre (glucose) se dissolvent dans l’eau distillée.</li>
     <li>La solution est devenue limpide et incolore.</li>
   </ul>
 
-  <h2>Définitions :</h2>
+  <h1>Définitions</h1>
   <ul>
     <li>Le glucose et le chlorure de sodium sont les espèces dissoutes : on dit que ce sont des solutés.</li>
     <li>L’eau est l’espèce largement majoritaire dans la solution : on dit que c’est le solvant.</li>
     <li>Une solution est un mélange homogène résultant de la dissolution d’une ou plusieurs espèces chimiques (le ou les solutés minoritaires) dans une autre espèce chimique (le solvant majoritaire).</li>
     <li>Si le solvant est de l’eau, on obtient une solution aqueuse.</li>
   </ul>
-  <h2>Remarques :</h2>
+  <h1>Remarques</h1>
   <ul>
     <li>à partir d’une certaine quantité de soluté introduite, la dissolution n’est plus possible. Le solvant a dissous la quantité maximale d’espèce qu’il pouvait dissoudre. On dit alors que la solution est saturée.</li>
     <li>Le soluté peut-être solide, liquide ou gazeux.</li>
